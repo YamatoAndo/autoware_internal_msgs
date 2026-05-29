@@ -6,6 +6,7 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/PoseWithCovarianceStamped.srv"
+  "srv/PoseEstimatorSwitch.srv"
   "srv/InitializeLocalization.srv"
   DEPENDENCIES
     std_msgs

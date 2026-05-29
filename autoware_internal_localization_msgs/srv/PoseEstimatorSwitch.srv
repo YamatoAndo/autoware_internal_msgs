@@ -1,0 +1,11 @@
+# constants for specifying pose estimate method
+uint8 NDT = 1
+uint8 YABLOC = 2
+uint8 EAGLEYE = 4
+uint8 ARTAG = 8
+
+uint8 method
+
+---
+
+bool success
