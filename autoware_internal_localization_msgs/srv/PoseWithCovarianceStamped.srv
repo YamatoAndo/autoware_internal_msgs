@@ -5,3 +5,5 @@ bool success
 # reliable is used to check reliability of initial pose was good or bad.
 bool reliable
 geometry_msgs/PoseWithCovarianceStamped pose_with_covariance
+# score of the estimated pose (e.g. scan matching score). A larger value means a better result.
+float64 score
